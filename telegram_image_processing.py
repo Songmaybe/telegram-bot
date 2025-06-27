@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = '1111111111111111'Telegram API token
+TOKEN = '8027904729:AAFfyI1aX3cP3FYdkmXS2E713vThjR3hCZE'Telegram API token
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Welcome to IntelliKiosk! Send me a product name or an image.")
